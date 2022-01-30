@@ -1,0 +1,47 @@
+#watch-container {
+  padding: 2rem;
+  background-color: #1c1c1c;
+  border: 5px solid black;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#watch-container article p {
+  font-size: 10rem;
+  color: red;
+}
+
+#button-section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#button-section button {
+  margin: 1rem 0;
+  padding: 1.5rem;
+  background-color: red;
+  border: 5px solid black;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+#button-section button:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
